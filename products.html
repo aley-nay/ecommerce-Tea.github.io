@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tea</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+	<section id="top-menu" class="sticky-top container-fluid bg-white" style="z-index: 2;">
+	<nav class="navbar navbar-expand-lg navbar-white container">
+  <a class="navbar-brand" href="#"><img src="img/logo.png" class="w-50" alt="Tea Logo"></a>
+  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <img class="navbar-toggler-icon img-fluid" src="img/menu.png" alt="menu">
+  </button>
+  <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown position-static">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+        <div class="dropdown-menu w-100 rounded-0 border-0 mt-0" aria-labelledby="navbarDropdown">
+        	<div class="container">
+          <div class="row m-0">
+          	<div class="col-md-2 col-6">
+          		<a class="nav-link disabled text-dark font-weight-bold" href="#">Black Tea</a>
+          		<a class="dropdown-item pl-2" href="#">Lorem Ipsum</a>
+          		<a class="dropdown-item  pl-2" href="#">Lorem Ipsum</a>
+          		<a class="dropdown-item  pl-2" href="#">Lorem Ipsum</a>
+          		<a class="dropdown-item  pl-2" href="#">Lorem Ipsum</a>
+          		<a class="dropdown-item  pl-2" href="#">Lorem Ipsum</a>
+          	</div>
+          	<div class="col-md-2 col-6">
+          		<a class="nav-link disabled text-dark font-weight-bold" href="#">White Tea</a>
+          		<a class="dropdown-item  pl-2" href="#">Lorem Ipsum</a>
+          		<a class="dropdown-item  pl-2" href="#">Lorem Ipsum</a>
+          		<a class="dropdown-item  pl-2" href="#">Lorem Ipsum</a>
+          		<a class="dropdown-item  pl-2" href="#">Lorem Ipsum</a>
+          		<a class="dropdown-item  pl-2" href="#">Lorem Ipsum</a>
+          	</div>
+          	<div class="col-md-2 col-6">
+          		<a class="nav-link disabled text-dark font-weight-bold" href="#">Herbal Tea</a>
+          		<a class="dropdown-item  pl-2" href="#">Lorem Ipsum</a>
+          		<a class="dropdown-item  pl-2" href="#">Lorem Ipsum</a>
+          		<a class="dropdown-item  pl-2" href="#">Lorem Ipsum</a>
+          		<a class="dropdown-item  pl-2" href="#">Lorem Ipsum</a>
+          		<a class="dropdown-item  pl-2" href="#">Lorem Ipsum</a>
+          	</div>
+          	<div class="col-md-2 col-6">
+          		<a class="nav-link disabled text-dark font-weight-bold" href="#">Teaware</a>
+          		<a class="dropdown-item  pl-2" href="#">Lorem Ipsum</a>
+          		<a class="dropdown-item  pl-2" href="#">Lorem Ipsum</a>
+          		<a class="dropdown-item  pl-2" href="#">Lorem Ipsum</a>
+          		<a class="dropdown-item  pl-2" href="#">Lorem Ipsum</a>
+          		<a class="dropdown-item  pl-2" href="#">Lorem Ipsum</a>
+          	</div>
+          	<div class="col-md-4 d-none d-md-block d-lg-block">
+          		<a href="#"><img class="img-fluid w-75" src="img/dropdown-category/dc-1.jpg" alt="Show all"></a>
+          </div>
+      </div>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Collection
+        </a>
+        <div class="dropdown-menu m-0 rounded-0 border-0" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Lorem Ipsum</a>
+          <a class="dropdown-item" href="#">Lorem Ipsum</a>
+          <a class="dropdown-item" href="#">Lorem Ipsum</a>
+          <a class="dropdown-item" href="#">Lorem Ipsum</a>
+          <a class="dropdown-item" href="#">Lorem Ipsum</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Discover
+        </a>
+        <div class="dropdown-menu m-0 rounded-0 border-0" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Lorem Ipsum</a>
+          <a class="dropdown-item" href="#">Lorem Ipsum</a>
+          <a class="dropdown-item" href="#">Lorem Ipsum</a>
+          <a class="dropdown-item" href="#">Lorem Ipsum</a>
+          <a class="dropdown-item" href="#">Lorem Ipsum</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blog</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control border-3 rounded-0 w-75" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-green border-1 rounded-0 p-2 w-25" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</section>
+<section id="page-name" class="pn1 d-flex justify-content-center align-items-center">
+  <h1 class="text-white ">Product</h1>
+</section>
+<section id="products" class="container mt-5">
+  <div class="row">
+    <div class="col-lg-3">
+      <div id="pfilter">
+      <h2>Filter by Price:</h2>
+      <div id="range">
+        <span id="currentVal">50</span>
+      </div>
+      <a href="#" class="btn linebtn w-100 position-relative" style="margin-top: 4rem;">Filter</a>
+      <h2 class="mt-5">Product Categories:</h2>
+      <ul class="pl-0">
+        <li class="h5"><a href="">Black Tea</a></li>
+        <li class="h5"><a href="">White Tea</a></li>
+        <li class="h5"><a href="">Orange Tea</a></li>
+        <li class="h5"><a href="">Red Tea</a></li>
+      </ul>
+      </div>
+    </div>
+    <div class="col-lg-9">
+      <div class="row">
+        <div class="col-lg-4 col-6 product-item">
+        <a href="#" class="effect-change position-relative overflow-hidden d-inline-block">
+          <img src="img/products/product-1.jpg" class="img-1 img-fluid" alt="A-Black Tea Out">
+          <img src="img/products/product-in.jpg" class="img-2 img-fluid position-absolute" alt="A-Black Tea In">
+        </a>
+        <a href="" class="text-center product-info position-relative d-block pt-1 pb-2">A-Black Tea<br><span>7.00₺</span></a>
+      </div>
+      <div class="col-lg-4 col-6 product-item">
+        <a href="#" class="effect-change position-relative overflow-hidden d-inline-block">
+          <img src="img/products/product-1.jpg" class="img-1 img-fluid" alt="A-Black Tea Out">
+          <img src="img/products/product-in.jpg" class="img-2 img-fluid position-absolute" alt="A-Black Tea In">
+        </a>
+        <a href="" class="text-center product-info position-relative d-block pt-1 pb-2">A-Black Tea<br><span>7.00₺</span></a>
+      </div>
+      <div class="col-lg-4 col-6 product-item">
+        <a href="#" class="effect-change position-relative overflow-hidden d-inline-block">
+          <img src="img/products/product-1.jpg" class="img-1 img-fluid" alt="A-Black Tea Out">
+          <img src="img/products/product-in.jpg" class="img-2 img-fluid position-absolute" alt="A-Black Tea In">
+        </a>
+        <a href="" class="text-center product-info position-relative d-block pt-1 pb-2">A-Black Tea<br><span>7.00₺</span></a>
+      </div>
+      <div class="col-lg-4 col-6 product-item">
+        <a href="#" class="effect-change position-relative overflow-hidden d-inline-block">
+          <img src="img/products/product-1.jpg" class="img-1 img-fluid" alt="A-Black Tea Out">
+          <img src="img/products/product-in.jpg" class="img-2 img-fluid position-absolute" alt="A-Black Tea In">
+        </a>
+        <a href="" class="text-center product-info position-relative d-block pt-1 pb-2">A-Black Tea<br><span>7.00₺</span></a>
+      </div>
+      <div class="col-lg-4 col-6 product-item">
+        <a href="#" class="effect-change position-relative overflow-hidden d-inline-block">
+          <img src="img/products/product-1.jpg" class="img-1 img-fluid" alt="A-Black Tea Out">
+          <img src="img/products/product-in.jpg" class="img-2 img-fluid position-absolute" alt="A-Black Tea In">
+        </a>
+        <a href="" class="text-center product-info position-relative d-block pt-1 pb-2">A-Black Tea<br><span>7.00₺</span></a>
+      </div>
+      <div class="col-lg-4 col-6 product-item">
+        <a href="#" class="effect-change position-relative overflow-hidden d-inline-block">
+          <img src="img/products/product-1.jpg" class="img-1 img-fluid" alt="A-Black Tea Out">
+          <img src="img/products/product-in.jpg" class="img-2 img-fluid position-absolute" alt="A-Black Tea In">
+        </a>
+        <a href="" class="text-center product-info position-relative d-block pt-1 pb-2">A-Black Tea<br><span>7.00₺</span></a>
+      </div>
+      <div class="col-lg-4 col-6 product-item">
+        <a href="#" class="effect-change position-relative overflow-hidden d-inline-block">
+          <img src="img/products/product-1.jpg" class="img-1 img-fluid" alt="A-Black Tea Out">
+          <img src="img/products/product-in.jpg" class="img-2 img-fluid position-absolute" alt="A-Black Tea In">
+        </a>
+        <a href="" class="text-center product-info position-relative d-block pt-1 pb-2">A-Black Tea<br><span>7.00₺</span></a>
+      </div>
+      <div class="col-lg-4 col-6 product-item">
+        <a href="#" class="effect-change position-relative overflow-hidden d-inline-block">
+          <img src="img/products/product-1.jpg" class="img-1 img-fluid" alt="A-Black Tea Out">
+          <img src="img/products/product-in.jpg" class="img-2 img-fluid position-absolute" alt="A-Black Tea In">
+        </a>
+        <a href="" class="text-center product-info position-relative d-block pt-1 pb-2">A-Black Tea<br><span>7.00₺</span></a>
+      </div>
+      <div class="col-lg-4 col-6 product-item">
+        <a href="#" class="effect-change position-relative overflow-hidden d-inline-block">
+          <img src="img/products/product-1.jpg" class="img-1 img-fluid" alt="A-Black Tea Out">
+          <img src="img/products/product-in.jpg" class="img-2 img-fluid position-absolute" alt="A-Black Tea In">
+        </a>
+        <a href="" class="text-center product-info position-relative d-block pt-1 pb-2">A-Black Tea<br><span>7.00₺</span></a>
+      </div>
+        <div class="col-lg-4 col-6 product-item">
+        <a href="#" class="effect-change position-relative overflow-hidden d-inline-block">
+          <img src="img/products/product-1.jpg" class="img-1 img-fluid" alt="A-Black Tea Out">
+          <img src="img/products/product-in.jpg" class="img-2 img-fluid position-absolute" alt="A-Black Tea In">
+        </a>
+        <a href="" class="text-center product-info position-relative d-block pt-1 pb-2">A-Black Tea<br><span>7.00₺</span></a>
+      </div>
+      <div class="col-lg-4 col-6 product-item">
+        <a href="#" class="effect-change position-relative overflow-hidden d-inline-block">
+          <img src="img/products/product-1.jpg" class="img-1 img-fluid" alt="A-Black Tea Out">
+          <img src="img/products/product-in.jpg" class="img-2 img-fluid position-absolute" alt="A-Black Tea In">
+        </a>
+        <a href="" class="text-center product-info position-relative d-block pt-1 pb-2">A-Black Tea<br><span>7.00₺</span></a>
+      </div>
+      <div class="col-lg-4 col-6 product-item">
+        <a href="#" class="effect-change position-relative overflow-hidden d-inline-block">
+          <img src="img/products/product-1.jpg" class="img-1 img-fluid" alt="A-Black Tea Out">
+          <img src="img/products/product-in.jpg" class="img-2 img-fluid position-absolute" alt="A-Black Tea In">
+        </a>
+        <a href="" class="text-center product-info position-relative d-block pt-1 pb-2">A-Black Tea<br><span>7.00₺</span></a>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+<nav aria-label="..." class="d-flex justify-content-center mt-3 mb-3">
+  <ul class="pagination pagination-md">
+    <li class="page-item active" aria-current="page">
+      <span class="page-link rounded-0 p-3">1</span>
+    </li>
+    <li class="page-item"><a class="page-link rounded-0 p-3" href="#">2</a></li>
+    <li class="page-item"><a class="page-link rounded-0 p-3" href="#">Next</a></li>
+  </ul>
+</nav>
+<section id="footer" class="container-fluid mt-5 p-5">
+  <div class="row">
+      <div class="col-lg-3 col-md-4 mb-3 mb-md-0">
+        <p class="font-weight-bold mb-0">Shop:</p>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo suscipit erat, vel dapibus nisi finibus sit amet.</p>
+        <a href="" class="d-block">Teas</a>
+        <a href="" class="d-block">Teaware</a>
+        <a href="" class="d-block">Tea Gifts</a>
+      </div>
+      <div class="col-lg-3 col-md-4 mb-3 mb-md-0">
+        <p class="font-weight-bold mb-0">Stay Connected:</p>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo suscipit erat, vel dapibus nisi finibus sit amet.</p>
+        <a href="" class="d-block">About Us</a>
+        <a href="" class="d-block">Contact Us</a>
+        <a href="" class="d-block">FAQ</a>
+      </div>
+      <div class="col-lg-3 col-md-4  mb-3 mb-md-0">
+        <p class="font-weight-bold mb-0">Discover More:</p>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo suscipit erat, vel dapibus nisi finibus sit amet.</p>
+        <a href="" class="d-block">Work With Us</a>
+        <a href="" class="d-block">Terms &amp; Conditions</a>
+        <a href="" class="d-block">Delivery &amp; Returns</a>
+      </div>
+      <div class="col-lg-3 col-md-4 d-flex  align-items-center flex-column justify-content-center">
+        <img src="img/logo.png" class="img-fluid mb-2 w-25" alt="leaf">
+        <p class="text-center">©2021 <br>Teavolution<br> All Rights Reserved</p>
+      </div>
+    </div>
+</section>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script type="text/javascript">
+  (function() {
+  $("#range").slider({
+    range: "min",
+    max: 100,
+    value: 50,
+    slide: function(e, ui) {
+      $("#currentVal").html(ui.value);
+    }
+  });
+
+}).call(this);
+</script>
+</body>
+</html>
