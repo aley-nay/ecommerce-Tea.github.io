@@ -3,7 +3,7 @@
 
 # Review 
 <h3>⚫ Desktop</h3>
-<img src="https://github.com/aleynaben/ecommerce-Tea/blob/master/img/a1.gif">
+<img src="https://github.com/aleynaben/ecommerce-Tea/blob/main/img/a1.gif">
 
 <h3>⚫ Mobile</h3>
-<img src="https://github.com/aleynaben/ecommerce-Tea/blob/master/img/bbb.gif">
+<img src="https://github.com/aleynaben/ecommerce-Tea/blob/main/img/bbb.gif">
